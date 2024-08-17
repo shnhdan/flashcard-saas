@@ -1,0 +1,71 @@
+/* Home.module.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(
+    135deg,
+    #002f4c,
+    #0077b6
+  ); /* Gradient background */
+  color: #ffffff;
+  padding: 0 2rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 1.125rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.card {
+  background-color: #ffffff; /* Solid white background for the card */
+  color: #002f4c; /* Dark color for text */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  max-width: 100%;
+  text-align: center;
+  margin: 0 auto; /* Center the card horizontally */
+}
+
+.cardTitle {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.cardContent {
+  font-size: 1rem;
+}
+
+@media (max-width: 600px) {
+  .title {
+    font-size: 1.75rem;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+
+  .card {
+    padding: 1rem;
+  }
+
+  .cardTitle {
+    font-size: 1.5rem;
+  }
+
+  .cardContent {
+    font-size: 0.875rem;
+  }
+}
